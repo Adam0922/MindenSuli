@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Vegyes\\Wbprog\\TeloToltosCsXaml\\TeloToltes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8AEE3E-4057-4FD8-B5BA-A39E91278DBC}|TeloToltes\\TeloToltes.csproj|d:\\vegyes\\wbprog\\telotoltoscsxaml\\telotoltes\\telotoltes\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7C8AEE3E-4057-4FD8-B5BA-A39E91278DBC}|TeloToltes\\TeloToltes.csproj|solutionrelative:telotoltes\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8AEE3E-4057-4FD8-B5BA-A39E91278DBC}|TeloToltes\\TeloToltes.csproj|d:\\vegyes\\wbprog\\telotoltoscsxaml\\telotoltes\\telotoltes\\telephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8AEE3E-4057-4FD8-B5BA-A39E91278DBC}|TeloToltes\\TeloToltes.csproj|solutionrelative:telotoltes\\telephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8AEE3E-4057-4FD8-B5BA-A39E91278DBC}|TeloToltes\\TeloToltes.csproj|d:\\vegyes\\wbprog\\telotoltoscsxaml\\telotoltes\\telotoltes\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C8AEE3E-4057-4FD8-B5BA-A39E91278DBC}|TeloToltes\\TeloToltes.csproj|solutionrelative:telotoltes\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C8AEE3E-4057-4FD8-B5BA-A39E91278DBC}|TeloToltes\\TeloToltes.csproj|d:\\vegyes\\wbprog\\telotoltoscsxaml\\telotoltes\\telotoltes\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7C8AEE3E-4057-4FD8-B5BA-A39E91278DBC}|TeloToltes\\TeloToltes.csproj|solutionrelative:telotoltes\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 282,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "telephone.cs",
+              "DocumentMoniker": "D:\\Vegyes\\Wbprog\\TeloToltosCsXaml\\TeloToltes\\TeloToltes\\telephone.cs",
+              "RelativeDocumentMoniker": "TeloToltes\\telephone.cs",
+              "ToolTip": "D:\\Vegyes\\Wbprog\\TeloToltosCsXaml\\TeloToltes\\TeloToltes\\telephone.cs",
+              "RelativeToolTip": "TeloToltes\\telephone.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T18:53:01.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Vegyes\\Wbprog\\TeloToltosCsXaml\\TeloToltes\\TeloToltes\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TeloToltes\\MainWindow.xaml",
+              "ToolTip": "D:\\Vegyes\\Wbprog\\TeloToltosCsXaml\\TeloToltes\\TeloToltes\\MainWindow.xaml",
+              "RelativeToolTip": "TeloToltes\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T18:35:40.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Vegyes\\Wbprog\\TeloToltosCsXaml\\TeloToltes\\TeloToltes\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TeloToltes\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Vegyes\\Wbprog\\TeloToltosCsXaml\\TeloToltes\\TeloToltes\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TeloToltes\\MainWindow.xaml.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAAEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T18:35:39.855Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 118,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Vegyes\\Wbprog\\TeloToltosCsXaml\\TeloToltes\\TeloToltes\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TeloToltes\\MainWindow.xaml",
+              "ToolTip": "D:\\Vegyes\\Wbprog\\TeloToltosCsXaml\\TeloToltes\\TeloToltes\\MainWindow.xaml",
+              "RelativeToolTip": "TeloToltes\\MainWindow.xaml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAtwA4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T18:43:44.316Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<title>Bootstrap weboldal</title>
+		<style>
+			#priceTable {
+				display: none;
+			}
+		</style>
+	</head>
+
+	<body class="">
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarToggler"
+				aria-controls="navbarToggler"
+				aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navbarToggler" class="collapse navbar-collapse">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="form.html">Kezdőlap</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="jumbotron text-center bg-light">
+			<h1>Javascript Gyakorlás</h1>
+			<p>Készítette: Kamarás Ádám</p>
+		</div>
+
+		<div class="container mb-5">
+			<div class="row">
+				<div class="col-sm-3"></div>
+				<div class="col-sm-6">
+					<h3>Hamburger rendelés</h3>
+					<form action="">
+						<div class="form-group">
+							<p><span class="select-error text-danger" id="selectError"></span></p>
+							<label for="topInput">Feltét:</label>
+							<select name="selector" id="selectTop" class="form-select">
+								<option value="0" selected>Válasz feltétet!</option>
+								<option value="1">Sonka</option>
+								<option value="2">Sajt</option>
+								<option value="3">Gomba</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<p><span class="amount-error text-danger" id="amountError"></span></p>
+
+							<label for="amountInput">Mennyiség:</label>
+							<input type="number" name="amount-input" class="form-control" id="amountInput" />
+						</div>
+
+						<div class="form-group">
+							<p><span class="price-error text-danger" id="priceError"></span></p>
+
+							<label for="priceInput">Ár:</label>
+							<input type="number" name="price-input" class="form-control" id="priceInput" />
+						</div>
+
+						<div class="form-group">
+							<p>Fizetendő: <span class="show-amount bg-dark text-white">0</span>FT</p>
+						</div>
+
+						<button type="button" class="btn btn-primary" onclick="calcAmount()">Megrendelés</button>
+						<button type="reset" class="btn btn-primary" onclick="formReset()">Visszaállítás</button>
+
+						<!--Táblázat-->
+
+						<div class="sum-table my-5" id="priceTable">
+							<h4>Összesítés</h4>
+							<table class="table table-striped table-bordered table-hover">
+								<thead class="thead-info">
+									<tr>
+										<th>Feltét</th>
+										<th>Mennyiség</th>
+										<th>Ár</th>
+										<th>Fizetendő</th>
+									</tr>
+								</thead>
+
+								<tbody>
+									<tr>
+										<td class="td-top">Nincs</td>
+										<td class="td-amount">0</td>
+										<td class="td-price">0</td>
+										<td class="td-sum">0</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</form>
+				</div>
+
+				<div class="col-sm-3"></div>
+			</div>
+		</div>
+		<script src="js/main.js"></script>
+	</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<meta charset="UTF-8" />
+		<meta author="Kamarás ádám" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+		<title>Bootstrap Űrlap</title>
+		<style>
+			.price-error,
+			.amount-error,
+			#priceTable {
+				display: none;
+			}
+		</style>
+	</head>
+	<body class="">
+		<nav id="ide" class="navbar navbar-expand-md navbar-dark bg-dark">
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarToggler"
+				aria-controls="navbarToggler"
+				aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navbarToggler" class="collapse navbar-collapse">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Kezdőlap</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="table.html">Táblázat</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="form.html">Űrlap</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html">Galéria</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="jumbotron text-center bg-light">
+			<h1>JavaScript Gyakorlás</h1>
+			<p>Készítette: Kamarás Ádám</p>
+		</div>
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <h3>Hamburger rendelés</h3>
+                <form action="">
+                    <div class="form-group">
+                        <p><span class="select-error text-danger" id="selectError"></span></p>
+                        <label for="topInput">Feltét:</label>
+                        <select name="selector" id="selectTop" class="form-select">
+                            <option value="0" selected>Válasz feltétet!</option>
+                            <option value="1">Sonka</option>
+                            <option value="2">Sajt</option>
+                            <option value="3">Gomba</option>
+                        </select>
+                        
+                    </div>
+
+                    <div class="form-group">
+                        <p><span class="amount-error text-danger" id="amountError"></span></p>
+                        
+                        <label for="amountInput">Mennyiség:</label>
+                        <input type="number" name="amount-input" class="form-control" id="amountInput">
+                    </div>
+                    
+                    <div class="form-group">
+                        <p><span class="price-error text-danger" id="priceError"></span></p>
+                        
+                        <label for="priceInput">Ár:</label>
+                        <input type="number" name="price-input" class="form-control" id="priceInput">
+                    </div>
+
+                    <div class="form-group">
+                        <p>
+                            Fizetendő: <span class="show-amount bg-dark text-white">0</span>FT
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-primary" onclick="calcAmount()">Megrendelés</button>
+                    <button type="reset" class="btn btn-primary" onclick="formReset()">Visszaállítás</button>
+                    
+                    <!--Táblázat-->
+
+<!-- <div class="sum-table my-5" id="priceTable">
+                        <h4>Összesítés</h4>
+                        <table class="table table-striped table-bordered table-hover">
+                            <thead class="thead-dark">
+                                <tr>
+                                    
+                                    <th>Feltét</th>
+                                    <th>Mennyiség</th>
+                                    <th>Ár</th>
+                                    <th>Fizetendő</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    
+                                    <td class="td-top">Nincs</td>
+                                    <td class="td-amount">0</td>
+                                    <td class="td-price">0</td>
+                                    <td class="td-sum">0</td>
+                                        
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </form>
+            </div>
+            
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    </body>
+</html> -->
+<!-- <div class="container mb-5">
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <h3>Hamburger rendelés</h3>
+                <form action="">
+                    <div class="form-group">
+                        <p><span class="select-error text-danger" id="selectError"></span></p>
+                        <label for="topInput">Feltét:</label>
+                        <select name="selector" id="selectTop" class="form-select">
+                            <option value="0" selected>Válasz feltétet!</option>
+                            <option value="1">Sonka</option>
+                            <option value="2">Sajt</option>
+                            <option value="3">Gomba</option>
+                        </select>
+                        
+                    </div>
+
+                    <div class="form-group">
+                        <p><span class="amount-error text-danger" id="amountError"></span></p>
+                        
+                        <label for="amountInput">Mennyiség:</label>
+                        <input type="number" name="amount-input" class="form-control" id="amountInput">
+                    </div>
+                    
+                    <div class="form-group">
+                        <p><span class="price-error text-danger" id="priceError"></span></p>
+                        
+                        <label for="priceInput">Ár:</label>
+                        <input type="number" name="price-input" class="form-control" id="priceInput">
+                    </div>
+
+                    <div class="form-group">
+                        <p>
+                            Fizetendő: <span class="show-amount bg-dark text-white">0</span>FT
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-primary" onclick="calcAmount()">Megrendelés</button>
+                    <button type="reset" class="btn btn-primary" onclick="formReset()">Visszaállítás</button>
+                    
+                    <!--Táblázat-->
+
+<!-- <div class="sum-table my-5" id="priceTable">
+                        <h4>Összesítés</h4>
+                        <table class="table table-striped table-bordered table-hover">
+                            <thead class="thead-dark">
+                                <tr>
+                                    
+                                    <th>Feltét</th>
+                                    <th>Mennyiség</th>
+                                    <th>Ár</th>
+                                    <th>Fizetendő</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    
+                                    <td class="td-top">Nincs</td>
+                                    <td class="td-amount">0</td>
+                                    <td class="td-price">0</td>
+                                    <td class="td-sum">0</td>
+                                        
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </form>
+            </div>
+            
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    </body>
+</html> 
+<!-- <body>
+    <nav id="ide" class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent1"
+        aria-controls="navbarSupportedContent1"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        Links 
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="form.html"
+              >Kezdőlap <span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="table.html">Táblázat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Űrlap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li> 
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron text-center bg-light">
+      <h1>JavaScript Test</h1>
+      <p>Készítette: Kamarás Ádám</p>
+    </div>
+
+    <div class="container mb-5">
+      <div class="row"></div>
+      <div class="col-sm-3"></div>
+      <div class="col-sm-6"></div>
+      <h3>Hamburger rendelés</h3>
+      <form action="">
+        <div class="form-group"> 
+          <label for="topInput">Feltét</label> 
+          <input type="text" name="top-input" class="form-control" id="top-input">
+        </div>
+        <div class="form-group"> 
+          <label for="arInput">Ár</label> 
+          <input type="number" name="price-input" class="form-control" id="price-input">
+        </div>
+        <div class="form-group"> 
+          <label for="topInput">Mennyiség</label> 
+          <input type="number" name="amount-input" class="form-control" id="top-input">
+        </div>
+        <button class="btn btn-primary" onclick="calcaAmount()">Megrendelés</button>
+        <button class="btn btn-primary" onclick="Formreset()">Visszaállítás</button>
+
+      </form>
+    </div>  
+      <div class="col-sm-3"></div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html> -->
+
+<!-- <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <form>
+            <div>
+              <label class="form-label" for="InputEmail">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="InputEmail"
+                placeholder="Enter email..."
+                value="valami@email.com"
+                aria-describedby="emailHelp"
+                readonly
+              />
+              <div class="form-text" id="emailHelp">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="InputPassword">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="InputPassword"
+                placeholder="Enter password..."
+              />
+            </div>
+            <div class="mb-3">
+              <label for="InputComment" class="form-label">Comment</label>
+              <textarea
+                class="form-control"
+                placeholder="Comment here..."
+                id="InputComment"
+                rows="3"
+              ></textarea>
+            </div>
+
+            <div class="mb-3">
+              <label for="timeSelect">Contact time</label>
+              <select class="form-select" id="selectList">
+                <option selected>Open this select menu</option>
+                <option value="1">Morning</option>
+                <option value="2">Afternoon</option>
+                <option value="3">Evening</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <input type="checkbox" class="form-check-input" id="checkMe" />
+              <label class="form-check-label" for="checkMe">Check Me Out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-3"></div> -->
+<!-- <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Kezdőlap</a>
+        </li>
+        <li class="nav-item">
+          <a href="#nogo" class="nav-link">Impresszum</a>
+        </li>
+      </ul> -->

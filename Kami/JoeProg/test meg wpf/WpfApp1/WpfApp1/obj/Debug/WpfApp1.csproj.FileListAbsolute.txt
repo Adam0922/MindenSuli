@@ -1,0 +1,15 @@
+X:\Kami\JoeProg\test meg wpf\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+X:\Kami\JoeProg\test meg wpf\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+X:\Kami\JoeProg\test meg wpf\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+X:\Kami\JoeProg\test meg wpf\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+X:\Kami\JoeProg\test meg wpf\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+X:\Kami\JoeProg\test meg wpf\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+X:\Kami\JoeProg\test meg wpf\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+X:\Kami\JoeProg\test meg wpf\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+X:\Kami\JoeProg\test meg wpf\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+X:\Kami\JoeProg\test meg wpf\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+X:\Kami\JoeProg\test meg wpf\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+X:\Kami\JoeProg\test meg wpf\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+X:\Kami\JoeProg\test meg wpf\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+X:\Kami\JoeProg\test meg wpf\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+X:\Kami\JoeProg\test meg wpf\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb

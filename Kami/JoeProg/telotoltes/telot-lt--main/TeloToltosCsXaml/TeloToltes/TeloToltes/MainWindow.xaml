@@ -1,0 +1,27 @@
+﻿<Window x:Class="TeloToltes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TeloToltes"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="630" Width="515"
+        MaxHeight="630"
+        MinHeight="630"
+        MinWidth="515"
+        MaxWidth="515">
+    <Grid>
+        <Image x:Name="___phone_gif" Source="/phone.gif" Stretch="Fill"/>
+        <TextBox x:Name="tszambe" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" MaxLength="11" Margin="0,109,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="395" Height="50" Opacity="0.8" BorderBrush="Black"/>
+        <TextBox x:Name="penzbe" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" MaxLength="4" Margin="0,248,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="395" Height="50" Opacity="0.8" BorderBrush="Black"/>
+        <Button x:Name="resetbtn" Content="Reset" HorizontalAlignment="Left" Margin="345,514,0,0" VerticalAlignment="Top" Height="40" Width="110" BorderBrush="Black" Click="resetbtn_Click" FontFamily="Franklin Gothic Demi Cond"/>
+        <Button x:Name="feltoltbtn" Content="Feltölt" HorizontalAlignment="Left" Margin="60,514,0,0" VerticalAlignment="Top" Height="38" Width="110" BorderBrush="Black" Foreground="#FF121212" Click="feltoltbtn_Click" FontFamily="Franklin Gothic Demi Cond"/>
+        <Button x:Name="lekerbtn" Content="Lekérdez" HorizontalAlignment="Center" Margin="0,513,0,0" VerticalAlignment="Top" Height="40" Width="110" BorderBrush="Black" Click="lekerbtn_Click" FontFamily="Franklin Gothic Demi Cond"/>
+        <Label Content="Telefonszám:" HorizontalAlignment="Left" Margin="80,65,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Lato Semibold" BorderBrush="White" Background="{x:Null}" Foreground="#FF460000"/>
+        <Label Content="Egyenleg:" HorizontalAlignment="Left" Margin="80,204,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Lato Semibold" BorderBrush="White" Background="{x:Null}" Foreground="#FF460000"/>
+        <Label x:Name="egyenlegOUT" Content="" HorizontalAlignment="Center" Margin="0,344,0,0" VerticalAlignment="Top" Height="115" Width="395" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="White" BorderBrush="Black" Opacity="0.85"/>
+        <Rectangle HorizontalAlignment="Center" Height="117" Margin="0,343,0,0" Stroke="Black" VerticalAlignment="Top" Width="397" RadiusX="2.812" RadiusY="2.812"/>
+
+    </Grid>
+</Window>

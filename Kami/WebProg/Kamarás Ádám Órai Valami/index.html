@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Kamarás Ádám -->
+		<meta charset="UTF-8" />
+		<meta name="author" content="Kamarás Ádám" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>Órai számológép</title>
+	</head>
+	<body>
+		<h1>Online számológép</h1>
+		<div>
+			<form action="">
+				<p><span class="a-error text-danger" id="AError"></span></p>
+				<p><span class="b-error text-danger" id="BError"></span></p>
+				<p><span class="cucc-error text-danger" id="CuccError"></span></p>
+				<input type="number" name="Aszam-input" id="Aszam-input" placeholder="Aszam" />
+				<select type="calSelect" name="cal-select">
+					<option class="0">+</option>
+					<option class="1">-</option>
+					<option class="2">/</option>
+					<option class="3">*</option>
+				</select>
+				<input type="number" name="Bszam-input" id="Bszam-input" placeholder="Bszam" />
+				<button id="calc" type="button" onclick="Calculus()">Számol</button>
+				<input type="number" name="result-input" readonly id="result-input" placeholder="Végeredmény" />
+				<button id="del" type="reset" onclick="delee()">Törlés</button>
+			</form>
+		</div>
+		<script src="js/main.js"></script>
+	</body>
+</html>

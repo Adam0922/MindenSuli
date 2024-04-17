@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta author="Kamarás Ádám" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="bootstrap-20231117T112738Z-001/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+		<title>Bootstrap weboldal</title>
+		<style>
+			#priceTable {
+				display: none;
+			}
+		</style>
+	</head>
+
+	<body class="">
+		<!--Szerző: Kamarás Ádám-->
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarToggler"
+				aria-controls="navbarToggler"
+				aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navbarToggler" class="collapse navbar-collapse">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="form.html">Kezdőlap</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="jumbotron text-center bg-light">
+			<h1>Javascript Gyakorlás</h1>
+			<p>Készítette: Kamarás Ádám</p>
+		</div>
+
+		<div class="container mb-5">
+			<div class="row">
+				<div class="col-sm-3"></div>
+				<div class="col-sm-6">
+					<h3>Hamburger rendelés</h3>
+					<form action="">
+						<div class="form-group">
+							<p><span class="select-error text-danger" id="selectError"></span></p>
+							<label for="topInput">Feltét:</label>
+							<select name="selector" id="selectTop" class="form-select">
+								<option value="0" selected>Válasz feltétet!</option>
+								<option value="1">Sonka</option>
+								<option value="2">Sajt</option>
+								<option value="3">Gomba</option>
+								<option value="4">Csípős</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<p><span class="amount-error text-danger" id="amountError"></span></p>
+
+							<label for="amountInput">Mennyiség:</label>
+							<input type="number" name="amount-input" class="form-control" id="amountInput" />
+						</div>
+
+						<div class="form-group">
+							<p><span class="price-error text-danger" id="priceError"></span></p>
+
+							<label for="priceInput">Ár:</label>
+							<input type="number" name="price-input" class="form-control" id="priceInput" />
+						</div>
+
+						<div class="form-group">
+							<p>Fizetendő: <span class="show-amount bg-dark text-white">0</span>FT</p>
+						</div>
+
+						<button type="button" class="btn btn-primary" onclick="calcAmount()">Megrendelés</button>
+						<button type="reset" class="btn btn-primary" onclick="formReset()">Visszaállítás</button>
+
+						<!--Táblázat-->
+
+						<div class="sum-table my-5" id="priceTable">
+							<h4>Összesítés</h4>
+							<table class="table table-striped table-bordered table-hover">
+								<thead class="thead-dark">
+									<tr>
+										<th>Feltét</th>
+										<th>Egységár</th>
+										<th>Mennyiség</th>
+										<th>Összesen</th>
+									</tr>
+								</thead>
+
+								<tbody>
+									<tr>
+										<td class="td-top">Nincs</td>
+										<td class="td-amount">0</td>
+										<td class="td-price">0</td>
+										<td class="td-sum">0</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<div class="second-table" id="secondTable">
+							<table class="table table-striped table-bordered" id="hmTable">
+								<thead>
+									<tr style="background-color: black; color: white">
+										<th>#</th>
+										<th>Feltét</th>
+										<th>Egységár</th>
+										<th>Mennyiség</th>
+										<th>Végösszeg</th>
+									</tr>
+								</thead>
+								<tbody>
+									<!--Itt lesznek a sorok feltöltve-->
+								</tbody>
+							</table>
+						</div>
+					</form>
+				</div>
+
+				<div class="col-sm-3"></div>
+			</div>
+		</div>
+		<script src="js/main.js"></script>
+	</body>
+</html>

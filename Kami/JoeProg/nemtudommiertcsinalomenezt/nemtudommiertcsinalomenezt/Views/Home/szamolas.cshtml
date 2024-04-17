@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "szamol";
+}
+
+@{
+    <h2>Számol</h2>
+
+    <form method="post" action="">
+        <label for="fname">Kérek egy számot:</label>
+        <input type="text" id="szam1" name="szam1"><br><br>
+        <input type="text" id="szam2" name="szam2"><br><br>
+        <input type="submit" value="+"><br><br>
+    </form>
+
+    if (IsPost)
+    {
+        string szam = Request["szam"];
+
+        <p>
+        <h2>
+            A beírt szám: @szam <br />
+        </h2>
+        </p>
+    }
+}

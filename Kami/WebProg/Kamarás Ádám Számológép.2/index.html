@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>matek gep</title>
+		<style>
+			h1 {
+				text-align: center;
+			}
+			.inresz {
+				border-width: 2px;
+				border-color: black;
+				border-style: solid;
+				text-align: center;
+			}
+			.eredmeny {
+				text-align: center;
+				font-size: 50px;
+				color: red;
+				border-color: black;
+				border-style: dashed;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Matek gep</h1>
+		<div>
+			<span class="eredmeny">0</span>
+		</div>
+		<form action="" id="calcForm">
+			<p><span id="errorMessage"></span></p>
+			<div class="inresz">
+				<input type="number" name="numA" id="numA" placeholder="A szam" />
+				<select name="operator" id="operators">
+					<option value="+">+</option>
+					<option value="-">-</option>
+					<option value="*">*</option>
+					<option value="/">/</option>
+				</select>
+				<input type="number" name="numB" id="numB" placeholder="B szam" />
+				<button type="button" onclick="calcNum()">Számol</button>
+				<button type="button" onclick="formReset()">Törlés</button>
+			</div>
+		</form>
+		<script type="text/javascript" src="calc.js"></script>
+	</body>
+</html>

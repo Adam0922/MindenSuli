@@ -1,0 +1,15 @@
+D:\Vegyes\Wbprog\TeloToltosCsXaml\TeloToltes\TeloToltes\bin\Debug\TeloToltes.exe.config
+D:\Vegyes\Wbprog\TeloToltosCsXaml\TeloToltes\TeloToltes\bin\Debug\TeloToltes.exe
+D:\Vegyes\Wbprog\TeloToltosCsXaml\TeloToltes\TeloToltes\bin\Debug\TeloToltes.pdb
+D:\Vegyes\Wbprog\TeloToltosCsXaml\TeloToltes\TeloToltes\obj\Debug\TeloToltes.csproj.AssemblyReference.cache
+D:\Vegyes\Wbprog\TeloToltosCsXaml\TeloToltes\TeloToltes\obj\Debug\MainWindow.g.cs
+D:\Vegyes\Wbprog\TeloToltosCsXaml\TeloToltes\TeloToltes\obj\Debug\App.g.cs
+D:\Vegyes\Wbprog\TeloToltosCsXaml\TeloToltes\TeloToltes\obj\Debug\TeloToltes_MarkupCompile.cache
+D:\Vegyes\Wbprog\TeloToltosCsXaml\TeloToltes\TeloToltes\obj\Debug\TeloToltes_MarkupCompile.lref
+D:\Vegyes\Wbprog\TeloToltosCsXaml\TeloToltes\TeloToltes\obj\Debug\MainWindow.baml
+D:\Vegyes\Wbprog\TeloToltosCsXaml\TeloToltes\TeloToltes\obj\Debug\TeloToltes.g.resources
+D:\Vegyes\Wbprog\TeloToltosCsXaml\TeloToltes\TeloToltes\obj\Debug\TeloToltes.Properties.Resources.resources
+D:\Vegyes\Wbprog\TeloToltosCsXaml\TeloToltes\TeloToltes\obj\Debug\TeloToltes.csproj.GenerateResource.cache
+D:\Vegyes\Wbprog\TeloToltosCsXaml\TeloToltes\TeloToltes\obj\Debug\TeloToltes.csproj.CoreCompileInputs.cache
+D:\Vegyes\Wbprog\TeloToltosCsXaml\TeloToltes\TeloToltes\obj\Debug\TeloToltes.exe
+D:\Vegyes\Wbprog\TeloToltosCsXaml\TeloToltes\TeloToltes\obj\Debug\TeloToltes.pdb

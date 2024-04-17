@@ -1,0 +1,3 @@
+Csoport 1. : Szegedi  Imre Márk, Kamarás Ádám, Fülöp Krisztián, Lucz Boldizsár
+Választott feladat megnevezése: Valós idejű chat alkalmazás
+Forrás (internetes) elérhetősége: https://www.youtube.com/watch?v=NU-HfZY3ATQ

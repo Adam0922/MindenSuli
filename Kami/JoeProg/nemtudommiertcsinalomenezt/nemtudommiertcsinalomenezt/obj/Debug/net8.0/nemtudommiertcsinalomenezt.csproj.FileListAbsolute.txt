@@ -1,0 +1,7 @@
+X:\Kami\JoeProg\nemtudommiertcsinalomenezt\nemtudommiertcsinalomenezt\obj\Debug\net8.0\nemtudommiertcsinalomenezt.GeneratedMSBuildEditorConfig.editorconfig
+X:\Kami\JoeProg\nemtudommiertcsinalomenezt\nemtudommiertcsinalomenezt\obj\Debug\net8.0\nemtudommiertcsinalomenezt.AssemblyInfoInputs.cache
+X:\Kami\JoeProg\nemtudommiertcsinalomenezt\nemtudommiertcsinalomenezt\obj\Debug\net8.0\nemtudommiertcsinalomenezt.AssemblyInfo.cs
+X:\Kami\JoeProg\nemtudommiertcsinalomenezt\nemtudommiertcsinalomenezt\obj\Debug\net8.0\nemtudommiertcsinalomenezt.csproj.CoreCompileInputs.cache
+X:\Kami\JoeProg\nemtudommiertcsinalomenezt\nemtudommiertcsinalomenezt\obj\Debug\net8.0\nemtudommiertcsinalomenezt.MvcApplicationPartsAssemblyInfo.cache
+X:\Kami\JoeProg\nemtudommiertcsinalomenezt\nemtudommiertcsinalomenezt\obj\Debug\net8.0\nemtudommiertcsinalomenezt.RazorAssemblyInfo.cache
+X:\Kami\JoeProg\nemtudommiertcsinalomenezt\nemtudommiertcsinalomenezt\obj\Debug\net8.0\nemtudommiertcsinalomenezt.RazorAssemblyInfo.cs

@@ -1,0 +1,15 @@
+X:\Kami\JoeProg\NemtudomJelszo\WpfApp3\WpfApp3\bin\Debug\WpfApp3.exe.config
+X:\Kami\JoeProg\NemtudomJelszo\WpfApp3\WpfApp3\bin\Debug\WpfApp3.exe
+X:\Kami\JoeProg\NemtudomJelszo\WpfApp3\WpfApp3\bin\Debug\WpfApp3.pdb
+X:\Kami\JoeProg\NemtudomJelszo\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csproj.AssemblyReference.cache
+X:\Kami\JoeProg\NemtudomJelszo\WpfApp3\WpfApp3\obj\Debug\MainWindow.g.cs
+X:\Kami\JoeProg\NemtudomJelszo\WpfApp3\WpfApp3\obj\Debug\App.g.cs
+X:\Kami\JoeProg\NemtudomJelszo\WpfApp3\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.cache
+X:\Kami\JoeProg\NemtudomJelszo\WpfApp3\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.lref
+X:\Kami\JoeProg\NemtudomJelszo\WpfApp3\WpfApp3\obj\Debug\MainWindow.baml
+X:\Kami\JoeProg\NemtudomJelszo\WpfApp3\WpfApp3\obj\Debug\WpfApp3.g.resources
+X:\Kami\JoeProg\NemtudomJelszo\WpfApp3\WpfApp3\obj\Debug\WpfApp3.Properties.Resources.resources
+X:\Kami\JoeProg\NemtudomJelszo\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csproj.GenerateResource.cache
+X:\Kami\JoeProg\NemtudomJelszo\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csproj.CoreCompileInputs.cache
+X:\Kami\JoeProg\NemtudomJelszo\WpfApp3\WpfApp3\obj\Debug\WpfApp3.exe
+X:\Kami\JoeProg\NemtudomJelszo\WpfApp3\WpfApp3\obj\Debug\WpfApp3.pdb
